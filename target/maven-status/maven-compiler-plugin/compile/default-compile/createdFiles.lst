@@ -1,0 +1,7 @@
+com/app/WebMvcConfig.class
+com/app/SpringBootWebApplication.class
+com/app/utiltiy/Common.class
+com/app/model/UrlLog.class
+com/app/controller/WelcomeController.class
+com/app/service/JavaService.class
+com/app/repository/JavaRepo.class
