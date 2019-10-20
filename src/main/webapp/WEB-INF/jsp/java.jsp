@@ -13,8 +13,9 @@
            <h3>Memory management</h3>
            <a href="/java/weak-references">
              weak references</a> 
-             <h3>Collections</h3>
-             
+             <h3>Lambdas and Streams</h3>
+           <a href="/java/lambdas">
+             lambdas</a> 
          
      </tbody>
  </table>

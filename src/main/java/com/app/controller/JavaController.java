@@ -37,6 +37,12 @@ public class JavaController {
 		saveUrl(request);
 		return "java/overriding-hashcode-equals";
 	}
+	@RequestMapping(value="/java/lambdas", method = RequestMethod.GET)
+	public String lambdas(HttpServletRequest request) {
+		log.info("incoming request:"+request.getRequestURI());
+		saveUrl(request);
+		return "java/lambdas";
+	}
 	private void saveUrl(HttpServletRequest request) {
 		String ip = Common.getClientIp(request);
 		//System.out.println("called from ip:"+ip);

@@ -20,6 +20,7 @@
 <body>
 <jsp:include page="header.jsp" />
 
+<jsp:include page="java.jsp" />
 	<!-- /.container -->
 
 	<script type="text/javascript"

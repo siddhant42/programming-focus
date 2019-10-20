@@ -13,8 +13,8 @@
 </head>
 <body>
 <div class="topnav" id="myTopnav">
-  <a href="#" class="active">Programming-focus</a>
-  <a href="#">Home</a>
+  <a href="/" class="active">Programming-focus</a>
+  <a href="/">Home</a>
   <a href="/java">Java</a>
   <a href="/data-structures">Data Structures</a>
   <a href="#about">About</a>
