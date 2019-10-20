@@ -37,3 +37,31 @@ a {
 .topnav .icon {
   display: none;
 }
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9f4f4;
+    border-radius: 5px;
+    padding: 0;
+}
+.menu {
+    line-height:20px;
+    background-color:#eeeeee;
+    height:720px;
+    width:15%;
+    float:left;
+    overflow-x: hidden;
+}
+.maincontent {
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 4px;
+    width: 65%;
+    float: left;
+    padding: 10px 15px 10px 15px;
+    background-color: #fff;
+}
+.right {
+    width: 15%;
+    float: left;
+}

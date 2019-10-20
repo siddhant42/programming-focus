@@ -3,6 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html lang="en">
 <head>
+<link rel="stylesheet" type="text/css" 
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
 <title>Programming-focus</title>
 <link rel="stylesheet" type="text/css"
 	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -16,7 +18,7 @@
 
 </head>
 <body>
-<jsp:include page="java.jsp" />
+<jsp:include page="header.jsp" />
 
 	<!-- /.container -->
 
