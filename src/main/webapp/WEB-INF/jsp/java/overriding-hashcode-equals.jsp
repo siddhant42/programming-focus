@@ -336,34 +336,37 @@ public boolean equals(Object o) {
 			the second one: equal objects must have equal hash codes.</b>			
 			For example, suppose you attempt to use instances of the PhoneNumber class
 			as keys in a HashMap:
-			<pre><code class="java">
-			Map&lt;PhoneNumber, String&gt; m = new HashMap&lt;&gt;();
-			m.put(new PhoneNumber(707, 867, 5309), "Jenny");
-			</code></pre>
+<pre><code class="java">
+Map&lt;PhoneNumber, String&gt; m = new HashMap&lt;&gt;();
+m.put(new PhoneNumber(707, 867, 5309), "Jenny");
+</code></pre>
 			At this point, you might expect m.get(new PhoneNumber(707, 867, 5309)) to
 			return "Jenny", but instead, it returns null.<br>
 			Fixing this problem is as simple as writing a proper hashCode method for
 			PhoneNumber.<br>
-			<pre><code class="java">
-			// The worst possible legal hashCode implementation - never use!
-			@Override public int hashCode() { return 42; }
-			</code></pre>
+<pre><code class="java">
+// The worst possible legal hashCode implementation - never use!
+@Override 
+public int hashCode() { 
+	return 42; 
+}
+</code></pre>
 			It’s legal because it ensures that equal objects have the same hash code. It’s
 			atrocious because it ensures that every object has the same hash code. Therefore,
 			every object hashes to the same bucket, and hash tables degenerate to linked lists.<br>
 			A good hash function tends to produce unequal hash codes for unequalinstances. 
 			This is exactly what is meant by the third part of the hashCode contract.<br>
 			One of the proper way of generating hashcode is like this:
-			<pre><code class="java">
-			//Typical hashCode method
-			@Override 
-			public int hashCode() {
-				int result = Short.hashCode(areaCode);
-				result = 31 * result + Short.hashCode(prefix);
-				result = 31 * result + Short.hashCode(lineNum);
-				return result;
-			}
-			</code></pre>
+<pre><code class="java">
+//Typical hashCode method
+@Override 
+public int hashCode() {
+int result = Short.hashCode(areaCode);
+result = 31 * result + Short.hashCode(prefix);
+result = 31 * result + Short.hashCode(lineNum);
+return result;
+}
+</code></pre>
 			The value 31 was chosen because it is
 			an odd prime. If it were even and the multiplication overflowed, information
 			would be lost, because multiplication by 2 is equivalent to shifting. The 

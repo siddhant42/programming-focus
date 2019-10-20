@@ -23,15 +23,15 @@
 		<div class="maincontent">
 			Here is an example code which sort a list of string in order of
 			length before java8.
-			<pre><code class="java">
-			// Before java8
-			List&lt;String&gt; words = Arrays.asList("Hello","world","this","is","java","programming");
-			Collections.sort(words, new Comparator&lt;String&gt;() {
-				public int compare(String s1, String s2) {
-					return Integer.compare(s1.length(), s2.length());
-				}
-			});
-			</code></pre>
+<pre><code class="java">
+// Before java8
+List&lt;String&gt; words = Arrays.asList("Hello","world","this","is","java","programming");
+Collections.sort(words, new Comparator&lt;String&gt;() {
+public int compare(String s1, String s2) {
+	return Integer.compare(s1.length(), s2.length());
+	}
+});
+</code></pre>
 			This code snippet is showing an implementation of anonymous
 			classes.Although this is concrete implementation of anonymous
 			class and fulfill the requirement of the problem.But the code
@@ -42,20 +42,20 @@
 			now known as functional interfaces, and the language allows 
 			to create instances of these interfaces using lambda expressions,
 			or lambdas for short.Here is the example code for the same:<br>
-			<pre><code class="java">
-				// Lambda expression as function object (replaces anonymous class)
-				Collections.sort(words,
-				(s1, s2) -> Integer.compare(s1.length(), s2.length()));
-			</code></pre>
+<pre><code class="java">
+// Lambda expression as function object (replaces anonymous class)
+Collections.sort(words,
+		(s1, s2) -> Integer.compare(s1.length(), s2.length()));
+</code></pre>
 			This code can be made shorter using <a href="/java/method-reference">Method Reference:</a><br>
-			<pre><code class="java">
-				Collections.sort(words, comparingInt(String::length));
-			</code></pre>
+<pre><code class="java">
+Collections.sort(words, comparingInt(String::length));
+</code></pre>
 			This code even made more shorter and easier to understand using sort
 			method of List interface:<br>
-			<pre><code class="java">
-				words.sort(comparingInt(String::length));
-			</code></pre>
+<pre><code class="java">
+words.sort(comparingInt(String::length));
+</code></pre>
 		</div>
 	</div>
 </body>
