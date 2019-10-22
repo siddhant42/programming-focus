@@ -60,6 +60,14 @@ a {
     float: left;
     padding: 10px 15px 10px 15px;
     background-color: #fff;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 1.45;
+    font-family: "Cambria", Serif;
+}
+pre{
+	font-size: 15px;
+	line-height: 1.2;
 }
 .right {
     width: 15%;

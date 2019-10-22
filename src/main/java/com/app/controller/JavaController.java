@@ -43,6 +43,12 @@ public class JavaController {
 		saveUrl(request);
 		return "java/lambdas";
 	}
+	@RequestMapping(value="/java/pattern-matching", method = RequestMethod.GET)
+	public String patternMatching(HttpServletRequest request) {
+		log.info("incoming request:"+request.getRequestURI());
+		saveUrl(request);
+		return "java/pattern-matching";
+	}
 	private void saveUrl(HttpServletRequest request) {
 		String ip = Common.getClientIp(request);
 		//System.out.println("called from ip:"+ip);

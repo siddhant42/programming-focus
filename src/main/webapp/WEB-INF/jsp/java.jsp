@@ -15,7 +15,9 @@
              weak references</a> 
              <h3>Lambdas and Streams</h3>
            <a href="/java/lambdas">
-             lambdas</a> 
+             lambdas</a> <br>
+           <a href="/java/pattern-matching">
+           Pattern Matching</a>
          
      </tbody>
  </table>
