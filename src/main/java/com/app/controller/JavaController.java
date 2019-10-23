@@ -49,6 +49,12 @@ public class JavaController {
 		saveUrl(request);
 		return "java/pattern-matching";
 	}
+	@RequestMapping(value="/java/map-functions", method = RequestMethod.GET)
+	public String mapFunction(HttpServletRequest request) {
+		log.info("incoming request:"+request.getRequestURI());
+		saveUrl(request);
+		return "/java/map-functions";
+	}
 	private void saveUrl(HttpServletRequest request) {
 		String ip = Common.getClientIp(request);
 		//System.out.println("called from ip:"+ip);

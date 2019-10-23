@@ -1,20 +1,12 @@
 package com.app;
 
-import java.util.Map;
-import java.util.Set;
-
-import javax.servlet.ServletContext;
-import javax.servlet.ServletRegistration;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
-import org.springframework.web.context.support.XmlWebApplicationContext;
-import org.springframework.web.filter.CommonsRequestLoggingFilter;
-import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
 
 @SpringBootApplication
 public class SpringBootWebApplication extends SpringBootServletInitializer {
@@ -24,7 +16,7 @@ public class SpringBootWebApplication extends SpringBootServletInitializer {
 		return application.sources(SpringBootWebApplication.class);
 	}
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		SpringApplication.run(SpringBootWebApplication.class, args);
 	}
 	

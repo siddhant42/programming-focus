@@ -17,7 +17,9 @@
            <a href="/java/lambdas">
              lambdas</a> <br>
            <a href="/java/pattern-matching">
-           Pattern Matching</a>
+           Pattern Matching</a><br>
+           <a href="/java/map-functions">
+           Map Functions</a>
          
      </tbody>
  </table>
