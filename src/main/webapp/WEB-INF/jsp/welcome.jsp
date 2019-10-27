@@ -15,7 +15,9 @@
 	 -->
 <c:url value="/css/main.css" var="jstlCss" />
 <link href="${jstlCss}" rel="stylesheet" />
-
+<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
 </head>
 <body>
 <jsp:include page="header.jsp" />

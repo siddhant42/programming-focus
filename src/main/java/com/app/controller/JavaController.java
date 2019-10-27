@@ -43,6 +43,12 @@ public class JavaController {
 		saveUrl(request);
 		return "java/lambdas";
 	}
+	@RequestMapping(value="/java/streams", method = RequestMethod.GET)
+	public String streams(HttpServletRequest request) {
+		log.info("incoming request:"+request.getRequestURI());
+		saveUrl(request);
+		return "java/streams";
+	}
 	@RequestMapping(value="/java/pattern-matching", method = RequestMethod.GET)
 	public String patternMatching(HttpServletRequest request) {
 		log.info("incoming request:"+request.getRequestURI());
@@ -54,6 +60,12 @@ public class JavaController {
 		log.info("incoming request:"+request.getRequestURI());
 		saveUrl(request);
 		return "/java/map-functions";
+	}
+	@RequestMapping(value="/java/method-reference", method = RequestMethod.GET)
+	public String methodReference(HttpServletRequest request) {
+		log.info("incoming request:"+request.getRequestURI());
+		saveUrl(request);
+		return "/java/method-reference";
 	}
 	private void saveUrl(HttpServletRequest request) {
 		String ip = Common.getClientIp(request);

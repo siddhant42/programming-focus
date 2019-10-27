@@ -14,6 +14,9 @@
 <script src="jquery-3.4.1.js"></script>
 <meta charset="UTF-8">
 <title>Streams</title>
+<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
 </head>
 <body>
 	<div id="container">
@@ -21,6 +24,11 @@
 			<jsp:include page="/WEB-INF/jsp/java.jsp" />
 		</div>
 		<div class="maincontent">
+Stream is an interface and basically represents a stream of data.We can
+convert collections into stream and stream into collections and get desired
+results. Operations performed through streams are very fast and optimized.
+Although we encourage to use stream over collections but use it judiciously.
+We can take more advantage if we use it properly.<br>
 A stream pipeline consists of a source stream followed by zero or more
 intermediate operations and one terminal operation.<br>
 Each intermediate operation transforms the stream in some way,
@@ -29,7 +37,8 @@ In java.util.stream package there is a generic Stream interface and three
 specific primitive versions of this which all extends BaseStream interface:-<br>
 IntStream,LongStream &amp; DoubleStream.<br>
 Here are some examples with most commonly used functions:-<br>
-
+Examples of method allMatch, anyMatch & filter which takes Predicate as argument
+can be seen <a href="/java/pattern-matching">here</a>
 		</div>
 	</div>
 </body>
