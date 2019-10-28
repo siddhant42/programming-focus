@@ -39,6 +39,12 @@ public class WelcomeController {
 		saveUrl(request);
 		return "/data-structures/array/histogram";
 	}
+	@RequestMapping(value="/algorithms", method = RequestMethod.GET)
+	public String bubbleSort(HttpServletRequest request) {
+		log.info("incoming request:"+request.getRequestURI());
+		saveUrl(request);
+		return "/algorithms/searchNsort/bubble-sort";
+	}
 	private void saveUrl(HttpServletRequest request) {
 		String ip = Common.getClientIp(request);
 		//System.out.println("called from ip:"+ip);
