@@ -33,6 +33,12 @@ public class WelcomeController {
 		saveUrl(request);
 		return "java/lambdas";
 	}
+	@RequestMapping(value="/data-structures", method = RequestMethod.GET)
+	public String ds(HttpServletRequest request) {
+		log.info("incoming request:"+request.getRequestURI());
+		saveUrl(request);
+		return "/data-structures/array/histogram";
+	}
 	private void saveUrl(HttpServletRequest request) {
 		String ip = Common.getClientIp(request);
 		//System.out.println("called from ip:"+ip);
