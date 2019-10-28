@@ -23,8 +23,8 @@
 		<div class="menu">
 			<jsp:include page="/WEB-INF/jsp/algorithms.jsp" />
 		</div>
-		<h3>Quick Sort</h3>
 		<div class="maincontent">
+		<h3>Quick Sort</h3>
 <pre><code class="java">
 public class QuickSort {
 	static int count = 0;

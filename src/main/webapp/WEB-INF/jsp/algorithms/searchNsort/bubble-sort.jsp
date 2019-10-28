@@ -23,8 +23,8 @@
 		<div class="menu">
 			<jsp:include page="/WEB-INF/jsp/algorithms.jsp" />
 		</div>
-		<h3>Bubble Sort</h3>
 		<div class="maincontent">
+		<h3>Bubble Sort</h3>
 <pre><code class="java">
 public class BubbleSort {
 	public static void sort(int[] a) {

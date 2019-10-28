@@ -23,8 +23,8 @@
 		<div class="menu">
 			<jsp:include page="/WEB-INF/jsp/algorithms.jsp" />
 		</div>
-		<h3>Merge Sort</h3>
 		<div class="maincontent">
+		<h3>Merge Sort</h3>
 <pre><code class="java">
 public class MergeSort {
 	public static void sort(int[] a) {
