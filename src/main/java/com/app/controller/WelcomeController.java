@@ -31,7 +31,7 @@ public class WelcomeController {
 	public String Java(HttpServletRequest request) {
 		log.info("incoming request:"+request.getRequestURI());
 		saveUrl(request);
-		return "java/staticMethod";
+		return "java/lambdas";
 	}
 	private void saveUrl(HttpServletRequest request) {
 		String ip = Common.getClientIp(request);

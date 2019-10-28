@@ -17,6 +17,7 @@
   <a href="/">Home</a>
   <a href="/java">Java</a>
   <a href="/data-structures">Data Structures</a>
+  <a href="/algorithms">Algorithms</a>
   <a href="#about">About</a>
 </div>
 </body>

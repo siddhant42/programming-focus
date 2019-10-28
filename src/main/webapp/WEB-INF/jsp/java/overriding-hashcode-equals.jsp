@@ -317,7 +317,7 @@ public boolean equals(Object o) {
 			after writing our equals method, check these three parameters: Is it
 			symmetric? Is it transitive? Is it consistent? Not just check write
 			unit test cases for these cases. <br> Nowadays best way to
-			create equals & hashcode is to use lombok project or Google-
+			create equals &amp; hashcode is to use lombok project or Google-
 			AutoValue.
 			<h2>Overriding Hashcode</h2>
 			<b>We must override hashCode in every class that overrides equals.</b>
@@ -375,7 +375,7 @@ return result;
 			would be lost, because multiplication by 2 is equivalent to shifting. The 
 			advantage of using a prime is less clear, but it is traditional. A nice property 
 			of 31 is that the multiplication can be replaced by a shift and a subtraction 
-			for better performance on some architectures: 31 * i == (i << 5) - i. Modern 
+			for better performance on some architectures: 31 * i == (i &lt;&lt; 5) - i. Modern 
 			VMs do this sort of optimization automatically.<br>
 			Because this method returns the result of a simple deterministic computation
 			whose only inputs are the three significant fields in a PhoneNumber instance, it is

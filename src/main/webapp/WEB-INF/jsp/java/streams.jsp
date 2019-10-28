@@ -37,7 +37,7 @@ In java.util.stream package there is a generic Stream interface and three
 specific primitive versions of this which all extends BaseStream interface:-<br>
 IntStream,LongStream &amp; DoubleStream.<br>
 Here are some examples with most commonly used functions:-<br>
-Examples of method allMatch, anyMatch & filter which takes Predicate as argument
+Examples of method allMatch, anyMatch &amp; filter which takes Predicate as argument
 can be seen <a href="/java/pattern-matching">here</a>
 		</div>
 	</div>
