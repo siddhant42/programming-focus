@@ -14,9 +14,6 @@
 <script src="jquery-3.4.1.js"></script>
 <meta charset="UTF-8">
 <title>Pattern Matching</title>
-<script data-ad-client="ca-pub-8533921061363804" 
-	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-</script>
 </head>
 <body>
 	<div id="container">
@@ -84,6 +81,11 @@ The output of the code above:
 <pre><code>true</code></pre>
 The output suggests that all the words in the stream doesn't match with the regex pattern
 formed using <i>Pattern</i> compiled predicate.
+		</div>
+		<div class="right">
+		<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+		</script>
 		</div>
 	</div>
 </body>

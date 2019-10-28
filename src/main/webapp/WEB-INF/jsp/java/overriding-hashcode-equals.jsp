@@ -12,9 +12,6 @@
 <script src="jquery-3.4.1.js"></script>
 <meta charset="UTF-8">
 <title>Overriding Hashcode and equals</title>
-<script data-ad-client="ca-pub-8533921061363804" 
-	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-</script>
 </head>
 <body>
 	<div id="container">
@@ -389,7 +386,11 @@ return result;
 			<b>Don’t provide a detailed specification for the value returned by hashCode,
 			so clients can’t reasonably depend on it; this gives you the flexibility to
 			change it.</b>
-			
+		</div>
+		<div class="right">
+		<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+		</script>
 		</div>
 	</div>
 </body>

@@ -14,9 +14,6 @@
 <script src="jquery-3.4.1.js"></script>
 <meta charset="UTF-8">
 <title>Quick Sort</title>
-<script data-ad-client="ca-pub-8533921061363804" 
-	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-</script>
 </head>
 <body>
 	<div id="container">
@@ -66,6 +63,11 @@ public class QuickSort {
 }
 
 </code></pre>
+		</div>
+		<div class="right">
+		<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+		</script>
 		</div>
 	</div>
 </body>

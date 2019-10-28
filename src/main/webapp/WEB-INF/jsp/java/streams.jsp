@@ -14,9 +14,6 @@
 <script src="jquery-3.4.1.js"></script>
 <meta charset="UTF-8">
 <title>Streams</title>
-<script data-ad-client="ca-pub-8533921061363804" 
-	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-</script>
 </head>
 <body>
 	<div id="container">
@@ -39,6 +36,11 @@ IntStream,LongStream &amp; DoubleStream.<br>
 Here are some examples with most commonly used functions:-<br>
 Examples of method allMatch, anyMatch &amp; filter which takes Predicate as argument
 can be seen <a href="/java/pattern-matching">here</a>
+		</div>
+		<div class="right">
+		<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+		</script>
 		</div>
 	</div>
 </body>

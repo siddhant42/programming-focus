@@ -14,9 +14,6 @@
 <script src="jquery-3.4.1.js"></script>
 <meta charset="UTF-8">
 <title>weak-references</title>
-<script data-ad-client="ca-pub-8533921061363804" 
-	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-</script>
 </head>
 <body>
 	<div id="container">
@@ -61,6 +58,11 @@ String str = "java";
 			object to remain in memory. Weak references allow us to leverage the
 			garbage collector's ability to determine reachability for us, so we
 			don't have to do it ourself. <br>
+		</div>
+		<div class="right">
+		<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+		</script>
 		</div>
 	</div>
 </body>
