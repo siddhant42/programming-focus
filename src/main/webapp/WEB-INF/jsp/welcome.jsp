@@ -17,9 +17,6 @@
 <link href="${jstlCss}" rel="stylesheet" />
 	<script type="text/javascript"
 		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script data-ad-client="ca-pub-8533921061363804" 
-	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-</script>
 </head>
 <body>
 <jsp:include page="header.jsp" />
@@ -35,6 +32,11 @@
 <div style="width:20%;float: left;">
 <h2>Algorithms</h2>
 <jsp:include page="algorithms.jsp" />
+</div>
+<div style="width:20%;float:right;">
+<script data-ad-client="ca-pub-8533921061363804" 
+	async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
 </div>
 </div>
 </body>
