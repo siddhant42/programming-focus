@@ -20,8 +20,16 @@
            <a href="/java/map-functions">
            Map Functions</a><br>
            <a href="/java/method-reference">
-           Method Reference</a>
-           <h3>Memory management</h3>
+           Method Reference</a><br>
+           <a href="/java/optional">
+           Optional</a>
+           <h3>Classes And Objects</h3>
+           <a href="/java/object-creation">
+           Different ways of creating object</a><br>
+           <a href="/java/static-method-overriding">
+           Static method overriding</a><br>
+           <a href="/java/overriding-hashcode-equals">
+           Overriding Hashcode &amp; equals</a><br>
            <a href="/java/weak-references">
              weak references</a> 
 </body>
