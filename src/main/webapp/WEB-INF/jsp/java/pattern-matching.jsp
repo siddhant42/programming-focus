@@ -78,7 +78,7 @@ boolean isFound = words.stream().allMatch(wordFilter);
 System.out.println(isFound);
 </code></pre>
 The output of the code above:
-<pre><code>true</code></pre>
+<pre><code>false</code></pre>
 The output suggests that all the words in the stream doesn't match with the regex pattern
 formed using <i>Pattern</i> compiled predicate.
 		</div>
